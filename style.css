@@ -1,0 +1,107 @@
+
+/* Reset CSS */
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}*/
+
+/* Body styles */
+body {
+  
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  /*width: 90%;*/
+  max-width: 900px; /* Limit container width better readability */
+}
+.titleContainer{
+  background-image: url('./pictures/game.jpeg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px #333;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color:#f9f9f9
+}
+
+.title2 {
+  color: #0c68b9;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.userFieldset {
+  background-color: #e5cfb4;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 4px #333;
+}
+.userFieldset:hover{
+  box-shadow: 3px 3px 6px black;
+}
+
+legend {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+label {
+  color: #555;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btnButton {
+  background-color: #0c68b9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btnButton:hover {
+  background-color: #084c85;
+}
+
+.display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 28px;
+  color: green;
+}

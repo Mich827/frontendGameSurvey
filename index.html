@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Video Game Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+ <div class="titleContainer" >
+  <h1 class="title">Video Game Survey</h1>
+ </div>
+ <div class="form">
+  <h2 class="title2">Please take a few minutes to answer questions</h2>
+  <form  method="post">
+    <fieldset class="userFieldset"><legend>User</legend>
+      
+    <input class="username" type="text" placeholder="write your username" required>
+    
+    <input class="email" type="email" placeholder="write your email" required >
+  </fieldset>
+  <fieldset class="userFieldset"><legend>Questions</legend>
+    <label for="frequency">How often do you play video games ?</label><br>
+    <select id="frequency" name="frequency">
+      <option value=""></option>
+     <option value="All days">All days</option>
+     <option value="one day by week">Once by week</option>
+     <option value="from time to time">From time to time</option>
+     <option value="one hour by days">One hour by days</option>
+    </select><br>
+  
+    <label for="favorite-genre">What type of games do you prefer ?</label><br>
+    <select id="favorite-genre" name="favorite-genre">
+      <option value=""></option>
+      <option value="strategy">Strategy game</option>
+      <option value="rpg">Role Play (RPG)</option>
+      <option value="fps">First Person shooter (FPS)</option>
+      <option value="sports">Sports Game</option>
+      <option value="adventure">Adventure Game</option>
+      <option value="puzzle"> Puzzle Game</option></select><br>
+      <!-- Ajoutez d'autres options selon vos besoins -->
+  
+    <label for="favoriteDevices">What media do you play on?</label><br>
+    <select id="favoriteDevices" name="favoriteDevices">
+       <option value=""></option>
+      <option value="console">Game console</option>
+      <option value="pc">Computer</option>
+      <option value="smartphone">Smartphone</option>
+      <option value="Virtual headset">Virtual headset</option>
+    </select><br>
+      
+   
+    
+    <label for="game">Your favorite games:</label><br>
+  <input class="favoris"  type="text" placeholder="First Game">
+  <input class="favoris" type="text" placeholder="Second Game">
+  <input class="favoris" type="text" placeholder="Third Game">
+    <!-- Ajoutez d'autres questions en fonction de vos besoins -->
+  </fieldset>
+  <fieldset class="userFieldset"><legend>Submit</legend>
+    <div class="btnDiv">
+
+       <button class="btnButton">Send</button>
+      <p class="display"></p></fieldset>
+  </div>
+      </form>
+ </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
