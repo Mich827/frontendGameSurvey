@@ -38,7 +38,7 @@ btn.addEventListener("click", async (event) => {
     favorite: favorisValues,
   };
   try {
-    const response = await fetch("http://localhost:3000/users/register", {
+    const response = await fetch("https://backend-game-survey.vercel.app/users/register", {
       method: "POST",
       headers: { "content-Type": "application/json" },
       body: JSON.stringify(formData),
